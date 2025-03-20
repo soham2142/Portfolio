@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Resume Button → Opens Resume in a New Tab
-    document.querySelector(".navbar a[href='#resume']").addEventListener("click", function (event) {
+    document.querySelector(".navbar a[href='#Resume']").addEventListener("click", function (event) {
         event.preventDefault();
         const resumeURL = "Resume.pdf"; // Change this to your actual resume file path
         window.open(resumeURL, "_blank");
