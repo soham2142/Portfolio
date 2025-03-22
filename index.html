@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <a href="#" class="logo"><b>Soham.</b><span>Sutar</span></a>
+        <nav class="navbar">
+            <a href="#" id="resume-btn">Resume</a>
+            <a href="#" id="experience-btn">Experience</a>
+            <a href="#" id="education-btn">Education</a>
+            <a href="#" id="projects-btn">Projects</a>
+        </nav>
+        <a href="#" class="contact">Contact Me</a>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home">
+        <div class="home-content">
+            <h2>Hello...</h2>
+            <h1>I'm <span>Soham Sutar</span><br>a UI/UX designer</h1>
+            <p>Passionate about creating seamless user experiences and modern web designs.</p>
+            <div class="btn-box">
+                <button class="btn-1">Hire Me</button>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="Soham.jpg" alt="Soham Profile Picture">
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about">
+        <div class="about-img">
+            <img src="Soham.jpg" alt="Soham Profile Picture">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>UI/UX <span>Designer</span></h3>
+            <p>Creating elegant and user-friendly designs that make a difference.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    
+    <section class="projects" id="projects">
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Project Name 1</h3>
+                <p>Short description of the project goes here.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project Name 2</h3>
+                <p>Short description of the project goes here.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project Name 3</h3>
+                <p>Short description of the project goes here.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+        
+    
+<!-- MODAL STRUCTURE -->
+<div class="modal" id="project-modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modal-title"></h2>
+        <img id="modal-image" src="" alt="Project Image">
+        <p id="modal-description"></p>
+    </div>
+</div>
+
+    <!-- Experience Modal -->
+    <div id="experience-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Experience Details</h2>
+            <p>Your experience details go here.</p>
+        </div>
+    </div>
+
+    <!-- Education Modal -->
+    <div id="education-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Education Details</h2>
+            <p>Your education details go here.</p>
+        </div>
+    </div>
+
+    <!-- Contact Modal -->
+<div id="contact-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Contact Me</h2>
+        <p><b>Phone:</b> +919421917247</p>
+        <p><b>Email:</b> 2709soham@gmail.com</p>
+        <p><b>WhatsApp:</b> <a href="https://wa.me/+919421917247" target="_blank">Chat Now</a></p>
+    </div>
+</div>
+
+<section class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-container">
+        <div class="faq-item">
+            <button class="faq-question">What services do you offer? <span>+</span></button>
+            <div class="faq-answer">
+                <p>I specialize in UI/UX design, website development, and branding.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">How can I contact you? <span>+</span></button>
+            <div class="faq-answer">
+                <p>You can reach me via WhatsApp, email, or By clicking on the Contact option below.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Do you work on freelance projects? <span>+</span></button>
+            <div class="faq-answer">
+                <p>Yes! Feel free to reach out for collaboration opportunities.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Privacy Policy Modal -->
+<div id="privacy-modal" class="modal">
+    <div class="modal-content">
+        <span class="close close-privacy">&times;</span>
+        <h2>Privacy Policy</h2>
+        <p>Your privacy is important to us. We collect and use your personal data only to improve our services.</p>
+        <p>We do not share your information with third parties without your consent.</p>
+        <p>For more details, feel free to contact us using the form below.</p>
+
+        
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social">
+            <a href="#" class="btn"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="btn-0"><i class='bx bxl-instagram'></i></a>
+            <a href="https://wa.me/+919421917247" class="btn-3"><i class='bx bxl-whatsapp'></i></a>
+            <a href="#" class="btn-4"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p class="copyright">&copy; 2024, All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
