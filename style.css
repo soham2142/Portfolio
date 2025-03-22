@@ -201,48 +201,6 @@ body {
     width: 100%;
 }
 
-/* Footer */
-.footer {
-    background: rgba(0, 0, 0, 0.7);;
-    color: white;
-    text-align: center;
-    padding: 30px 0;
-}
-
-.footer .social a {
-    font-size: 24px;
-    color: white;
-    margin: 0 10px;
-    transition: 0.3s;
-}
-
-.footer .social a:hover {
-    color: turquoise;
-}
-
-.footer ul {
-    margin-top: 10px;
-}
-
-.footer ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-.footer ul li a {
-    color: white;
-    transition: 0.3s;
-}
-
-.footer ul li a:hover {
-    color: turquoise;
-}
-
-.footer .copyright {
-    margin-top: 20px;
-    font-size: 14px;
-    color: gray;
-}
 
 /* Responsive Design */
 @media (max-width: 1024px) {
